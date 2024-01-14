@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+h1 {
+    text-align: center;
+    font-size: 4vmax;
+    margin-top: 3vmax;
+}
+div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+span {
+    height: 10vmax;
+    width: 10vmax;
+    display: inline-block;
+    margin: 2vmax 1vmax;
+    border: 0.3vmax solid black;
+}
+#blue {
+    background-color: blue;
+}
+#yellow {
+    background-color: yellow;
+}
+#orange {
+    background-color: orange;
+}
+#red {
+    background-color: red;
+}
+h2 {
+    text-align: center;
+    font-size: 3vmax;
+}
